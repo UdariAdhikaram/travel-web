@@ -1,6 +1,8 @@
 import React from 'react'
 import './navbar.css'
 import {MdOutlineTravelExplore} from 'react-icons/md'
+import {AiFillCloseCircle} from 'react-icons/ai'
+import {TbGridDots} from 'react-icons/tb'
 
 export const Navbar = () => {
   return (
@@ -49,6 +51,14 @@ export const Navbar = () => {
                     </button>
                 </ul>
 
+            <div className='closeNavbar'>
+            <AiFillCloseCircle className='icon'/>
+            </div>
+
+            </div>
+
+            <div className="toggleNavbar">
+            <TbGridDots className='icon'/>
             </div>
         </header>
     </section>
