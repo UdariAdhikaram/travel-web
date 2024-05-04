@@ -64,7 +64,12 @@ li{
 }
 
 .btn a{
-    color: var(--secondaryColor);
+    color: var(--whiteColor);
+    font-weight: 500;
+}
+
+.btn:hover{
+    background: var(--secondaryColor);
 }
 
 img, video{
