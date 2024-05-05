@@ -13,8 +13,8 @@ const showNav = () =>{
 }
 
 // function to remove naveBar
-const showNav = () =>{
-    setActive('navBar activeNavbar')
+const removeNavbar = () =>{
+    setActive('navBar')
 }
 
   return (
@@ -63,7 +63,8 @@ const showNav = () =>{
                     </button>
                 </ul>
 
-            <div className="closeNavbar">
+            <div onClick={removeNavbar} 
+            className="closeNavbar">
             <AiFillCloseCircle className="icon"/>
             </div>
             </div>
