@@ -2,6 +2,7 @@ import React from 'react'
 import './home.css'
 import video from '../../Assets/video2.mp4'
 import { GrLocation } from 'react-icons/gr'
+import { HiFilter } from 'react-icons/hi'
 
 const Home = () => {
   return (
@@ -11,11 +12,9 @@ const Home = () => {
     
       <div className="homeContent container">
         <div className='textDiv'>
-
           <span className='smallText'>
             Our Packages
           </span>
-
           <h1 className='homeTitle'>
             Search your Holiday
           </h1>
@@ -44,10 +43,16 @@ const Home = () => {
                 <h3 className='total'>LKR 10,000</h3>
               </div>
                 <div className='input flex'>
-                  <input type="range" max="10000"
-                  min="5000"/>
+                  <input type="range" max="100000"
+                  min="50000"/>
                 </div>
             </div>
+
+          <div className='searchOptions flex'>
+            <HiFilter className='icon'/>
+            <span>MORE FILTERS</span>
+
+          </div>
           </div>
       </div>
 
@@ -55,5 +60,6 @@ const Home = () => {
     </section>
   )
 }
+
 
 export default Home
