@@ -10,7 +10,7 @@ export const Navbar = () => {
         <header className='"header flex'>
 
             <div className="logoDiv">
-                <a href="#" className='logo'>
+                <a href="#" className="logo">
                     <h1><MdOutlineTravelExplore className="icon"/>  Trippy.</h1>
                 </a>
             </div>
@@ -52,13 +52,15 @@ export const Navbar = () => {
                 </ul>
 
             <div className='closeNavbar'>
-            <AiFillCloseCircle className='icon'/>
+            <AiFillCloseCircle className="icon"/>
+
+            
             </div>
 
             </div>
 
             <div className="toggleNavbar">
-            <TbGridDots className='icon'/>
+            <TbGridDots className="icon"/>
             </div>
         </header>
     </section>
