@@ -3,6 +3,11 @@ import './home.css'
 import video from '../../Assets/video2.mp4'
 import { GrLocation } from 'react-icons/gr'
 import { HiFilter } from 'react-icons/hi'
+import { FiFacebook } from 'react-icons/fi'
+import { AiOutlineInstagram } from 'react-icons/ai'
+import { SiTripadvisor } from 'react-icons/si'
+import { CiBoxList } from 'react-icons/ci'
+import { TbApps } from 'react-icons/tb'
 
 const Home = () => {
   return (
@@ -57,11 +62,15 @@ const Home = () => {
 
         <div className="homeFooterIcons flex">
           <div className="rightIcons">
-
+          <FiFacebook className='icon'/>
+          <AiOutlineInstagram className='icon'/>
+          <SiTripadvisor className='icon'/>
           </div>
 
           <div className="leftIcons">
-            
+          <CiBoxList className='icon'/>
+          <TbApps className='icon'/>
+
           </div>
         </div>
       </div>
