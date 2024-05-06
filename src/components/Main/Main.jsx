@@ -115,9 +115,13 @@ export const Main = () => {
 
       <div className="secContent grid">
         {
-            Data.map({id, imgSrc, destTitle, location, grade, fees, description})=>{
+            Data.map(({id, imgSrc, destTitle, location, grade, fees, description}) =>{
+                  return(
+                      <div key={id} className="dingleDestination">
 
-              }
+                      </div>
+                  )
+              })
         }
 
       </div>
