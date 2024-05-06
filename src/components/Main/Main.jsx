@@ -1,5 +1,7 @@
 import React from 'react'
 import './main.css' 
+import img from '../../Assets/img (1).jpg'
+
 
 const Data = [
   {
@@ -119,6 +121,16 @@ export const Main = () => {
                   return(
                       <div key={id} className="dingleDestination">
 
+                          <div className='imageDiv'>
+                            <img src={imgSrc} alt= {destTitle} />
+                          </div>
+
+                          <div className="cardInfo">
+                            <h4 className="destTitle">{destTitle}</h4>
+                            <span className='content flex'>
+                            <HiOutlineLocationMarker />
+                            </span>
+                          </div>
                       </div>
                   )
               })
