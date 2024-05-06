@@ -54,9 +54,17 @@ const Home = () => {
 
           </div>
           </div>
-      </div>
 
-    
+        <div className="homeFooterIcons flex">
+          <div className="rightIcons">
+
+          </div>
+
+          <div className="leftIcons">
+            
+          </div>
+        </div>
+      </div>
     </section>
   )
 }
