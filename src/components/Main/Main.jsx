@@ -3,7 +3,17 @@ import './main.css'
 
 export const Main = () => {
   return (
-    <div>main</div>
+    <section className='main container section'>
+      <div className="secTitle">
+        <h3 className="title">
+            Most visited destinations
+        </h3>
+      </div>
+      
+      <div className="secContent grid">
+
+      </div>
+    </section>
   )
 }
 
