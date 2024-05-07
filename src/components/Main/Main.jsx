@@ -2,6 +2,7 @@ import React from 'react'
 import './main.css' 
 import img from '../../Assets/img (1).jpeg'
 import { HiOutlineLocationMarker } from "react-icons/hi"
+import { HiOutlineClipboardCheck } from "react-icons/hi"
 
 const Data = [
   {
@@ -119,7 +120,7 @@ export const Main = () => {
         {
             Data.map(({id, imgSrc, destTitle, location, grade, fees, description}) =>{
                   return(
-                      <div key={id} className="dingleDestination">
+                      <div key={id} className="singleDestination">
 
                           <div className='imageDiv'>
                             <img src={imgSrc} alt= {destTitle} />
@@ -129,8 +130,25 @@ export const Main = () => {
                             <h4 className="destTitle">{destTitle}</h4>
                             <span className='content flex'>
                             <HiOutlineLocationMarker className='icon'/>
-                            
+                            <span className='name'>{location}</span>
                             </span>
+
+                            <div className="fees flex">
+                              <div className="grade">
+                                <span>{grade}<small>+1</small></span>
+                              </div>
+                              <div className="price">
+                                <h5>{fees}</h5>
+                              </div>
+                            </div>
+
+                            <div className="desc">
+                              <p>{description}</p>
+                            </div>
+
+                            <button className='btn flex'>
+                              DETAILS <HiOutlineClipboardCheck className='icon'/>
+                            </button>
                           </div>
                       </div>
                   )
