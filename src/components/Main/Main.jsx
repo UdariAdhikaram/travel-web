@@ -6,7 +6,7 @@ import { HiOutlineLocationMarker } from "react-icons/hi"
 const Data = [
   {
     id:1,
-    imgSrc: nine_arche,
+    imgSrc: img,
     destTitle: 'Nine Arche Bridge',
     location: 'Ella',
     grade: 'CULTURE RELAX',
