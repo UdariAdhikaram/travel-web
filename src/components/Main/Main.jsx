@@ -1,6 +1,6 @@
 import React from 'react'
 import './main.css' 
-import img from '../../Assets/img (1).jpg'
+import img from '../../Assets/img (1).jpeg'
 import { HiOutlineLocationMarker } from "react-icons/hi"
 
 const Data = [
@@ -129,7 +129,7 @@ export const Main = () => {
                             <h4 className="destTitle">{destTitle}</h4>
                             <span className='content flex'>
                             <HiOutlineLocationMarker className='icon'/>
-                            <span ></span>
+                            
                             </span>
                           </div>
                       </div>
