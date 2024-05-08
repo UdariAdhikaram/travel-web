@@ -72,6 +72,18 @@
 }
 .main .secContent .singleDestination .cardInfo {
   padding: 1rem;
+  /* .btn{
+       margin-top: 1rem;
+       color: var(--whiteColor);
+       font-weight: 600;
+       justify-content: space-between;
+       gap: .5rem;
+
+       .icon{
+           align-self: center;
+           font-size: 18px;
+       }
+   }*/
 }
 .main .secContent .singleDestination .cardInfo .destTitle {
   color: var(--blackColor);
@@ -108,5 +120,14 @@
   color: var(--whiteColor);
   padding: 1px 10px;
   font-size: 10px;
+}
+.main .secContent .singleDestination .cardInfo .fees .price {
+  font-size: 2rem;
+  color: var(--blackColor);
+}
+.main .secContent .singleDestination .cardInfo .desc {
+  font-size: 13.5px;
+  color: var(--textColor);
+  font-weight: 500;
 }
 /*# sourceMappingURL=main.css.map */

@@ -122,8 +122,30 @@
                             }
                         }
 
-                        
+                        .price{
+                            font-size: 2rem;
+                            color: var(--blackColor);
+                        }
                     }
+
+                    .desc{
+                        font-size: 13.5px;
+                        color: var(--textColor);
+                        font-weight: 500;
+                    }
+
+                   /* .btn{
+                        margin-top: 1rem;
+                        color: var(--whiteColor);
+                        font-weight: 600;
+                        justify-content: space-between;
+                        gap: .5rem;
+
+                        .icon{
+                            align-self: center;
+                            font-size: 18px;
+                        }
+                    }*/
                 }
             }
         }
