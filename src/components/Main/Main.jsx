@@ -1,13 +1,20 @@
 import React from 'react'
 import './main.css' 
-import img from '../../Assets/img (1).jpeg'
+import img1 from '../../Assets/img (1).jpeg'
+import img2 from '../../Assets/img (2).jpeg'
+import img3 from '../../Assets/img (3).jpg'  /*
+import img2 from '../../Assets/img (2).jpeg'
+import img2 from '../../Assets/img (2).jpeg'
+import img2 from '../../Assets/img (2).jpeg'
+import img2 from '../../Assets/img (2).jpeg'
+*/
 import { HiOutlineLocationMarker } from "react-icons/hi"
 import { HiOutlineClipboardCheck } from "react-icons/hi"
 
 const Data = [
   {
     id:1,
-    imgSrc: img,
+    imgSrc: img1,
     destTitle: 'Nine Arche Bridge',
     location: 'Ella',
     grade: 'CULTURE RELAX',
@@ -15,9 +22,9 @@ const Data = [
     description: 'The Nine Arch Bridge is one of the most photographed places in Sri Lanka – but that’s because it is just so beautiful! The bridge towers above a gorge full of tea fields and makes for the perfect place to visit in Sri Lanka to take your next favorite travel photo.'
   },
 
- /* {
+  {
     id:2,
-    imgSrc: sigiri,
+    imgSrc: img2,
     destTitle: 'Sigiriya Rock Fortress',
     location: 'Sigiriya',
     grade: 'CULTURE RELAX',
@@ -25,19 +32,10 @@ const Data = [
     description: 'Sigiriya Rock is one of the most popular places to visit in all of Sri Lanka. In fact, many visitors make the trip to Sigiriya purely to see this ancient fortress.' 
   },
 
-  {
-    id:3,
-    imgSrc: mirissa,
-    destTitle: 'Coconut Tree Hill',
-    location: 'Mirissa',
-    grade: 'CULTURE RELAX',
-    fees: 'LKR25000',
-    description: 'Coconut Tree Hill is a lateritic headland in Mirissa, Sri Lanka located adjacent to the Indian Ocean. It is a popular tourist destination in the country and is located at a headland with a coconut plantation. Coconut Tree Hill, despite being located on privately owned lands, is one of the most Instagrammed locations in Sri Lanka.'
-      },
-
+    
     {
-    id:4,
-    imgSrc: mirissa1,
+    id:3,
+    imgSrc: img3,
     destTitle: 'Mirissa Beach',
     location: 'Mirissa',
     grade: 'CULTURE RELAX',
@@ -45,7 +43,18 @@ const Data = [
     description: 'Mirissa Beach is a beautiful spot located in a small village between Galle and Matara on the south coast of Sri Lanka' 
        },
 
-    {
+  /*  {
+    id:3,
+    imgSrc: img3,
+    destTitle: 'Coconut Tree Hill',
+    location: 'Mirissa',
+    grade: 'CULTURE RELAX',
+    fees: 'LKR25000',
+    description: 'Coconut Tree Hill is a lateritic headland in Mirissa, Sri Lanka located adjacent to the Indian Ocean. It is a popular tourist destination in the country and is located at a headland with a coconut plantation. Coconut Tree Hill, despite being located on privately owned lands, is one of the most Instagrammed locations in Sri Lanka.'
+     },
+   
+
+  /*  {
     id:5,
     imgSrc: jafna,
     destTitle: 'Coconut Tree HillJaffna, for Temples, Forts and Markets',
