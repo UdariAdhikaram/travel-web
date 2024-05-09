@@ -2,12 +2,15 @@ import React from 'react'
 import './main.css' 
 import img1 from '../../Assets/img (1).jpeg'
 import img2 from '../../Assets/img (2).jpeg'
-import img3 from '../../Assets/img (3).jpg'  /*
-import img2 from '../../Assets/img (2).jpeg'
-import img2 from '../../Assets/img (2).jpeg'
-import img2 from '../../Assets/img (2).jpeg'
-import img2 from '../../Assets/img (2).jpeg'
-*/
+import img3 from '../../Assets/img (3).jpg' 
+import img4 from '../../Assets/img (4).jpg'
+import img5 from '../../Assets/img (5).jpg'
+import img6 from '../../Assets/Img (6).jpg'
+import img7 from '../../Assets/img (7).jpg'
+import img8 from '../../Assets/img (8).webp'
+import img9 from '../../Assets/img (9).webp'
+import img10 from '../../Assets/img (10).jpeg'
+
 import { HiOutlineLocationMarker } from "react-icons/hi"
 import { HiOutlineClipboardCheck } from "react-icons/hi"
 
@@ -43,21 +46,20 @@ const Data = [
     description: 'Mirissa Beach is a beautiful spot located in a small village between Galle and Matara on the south coast of Sri Lanka' 
        },
 
-  /*  {
-    id:3,
-    imgSrc: img3,
-    destTitle: 'Coconut Tree Hill',
-    location: 'Mirissa',
+    {
+    id:4,
+    imgSrc: img4,
+    destTitle: 'Sembuwaththa lake',
+    location: 'Matele',
     grade: 'CULTURE RELAX',
-    fees: 'LKR25000',
-    description: 'Coconut Tree Hill is a lateritic headland in Mirissa, Sri Lanka located adjacent to the Indian Ocean. It is a popular tourist destination in the country and is located at a headland with a coconut plantation. Coconut Tree Hill, despite being located on privately owned lands, is one of the most Instagrammed locations in Sri Lanka.'
-     },
-   
+    fees: 'LKR28000',
+    description: 'Sembuwaththa Lake offers a mesmerizing view with its vast expanse of deep blue water, surrounded by misty mountains and tea gardens.It’s an ideal place to let your thoughts wander as you reflect on your journey through Sri Lanka.'    
+  },
 
-  /*  {
+   {
     id:5,
-    imgSrc: jafna,
-    destTitle: 'Coconut Tree HillJaffna, for Temples, Forts and Markets',
+    imgSrc: img5,
+    destTitle: 'Jaffna Fort',
     location: 'Jaffna',
     grade: 'CULTURE RELAX',
     fees: 'LKR10000',
@@ -66,9 +68,9 @@ const Data = [
 
     {
     id:6,
-    imgSrc: lipton,
+    imgSrc: img6,
     destTitle: 'Liptons Seat',
-    location: 'Mirissa',
+    location: 'Haputhale',
     grade: 'CULTURE RELAX',
     fees: 'LKR28000',
     description: 'One of the most beautiful places I visited in Sri Lanka was Lipton’s Seat. The morning we visited, we got up very early so we could visit the viewpoint during sunrise, and it was stunning!'
@@ -76,7 +78,7 @@ const Data = [
 
     {
     id:7,
-    imgSrc: daladamaligava,
+    imgSrc: img7,
     destTitle: 'Kandy',
     location: 'Kandy',
     grade: 'CULTURE RELAX',
@@ -86,7 +88,7 @@ const Data = [
 
     {
     id:8,
-    imgSrc: dambulla,
+    imgSrc: img8,
     destTitle: 'Dambulla Cave Temples',
     location: 'Dambulla',
     grade: 'CULTURE RELAX',
@@ -96,7 +98,7 @@ const Data = [
 
    {
     id:9,
-    imgSrc: litteladaspeack,
+    imgSrc: img9,
     destTitle: 'Little Adam’s Peak',
     location: 'Ella',
     grade: 'CULTURE RELAX',
@@ -106,14 +108,13 @@ const Data = [
 
     {
     id:10,
-    imgSrc: adamspeak,
-    destTitle: 'Adams Peak',
-    location: 'Nallathanniya',
+    imgSrc: img10,
+    destTitle: 'Marble Beach',
+    location: 'Trincomalee',
     grade: 'CULTURE RELAX',
     fees: 'LKR45000',
-    description: 'Adam’s Peak is arguably one of the most important cultural places to the Sri Lankan people. To them, it’s a pilgrimage of high religious significance and it’s quickly become a must-see among visitors.'      
-    },
-*/ 
+    description: 'Marble Beach, also known as Saliara Beach, is a seaside gem located within a small isolated bay.Enjoy your visit to this stunning coastal paradise!'    },
+
 ]
 
 export const Main = () => {
