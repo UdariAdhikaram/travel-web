@@ -70,4 +70,26 @@
   color: var(--whiteColor);
   font-size: 1.8rem;
 }
+.footer .secContent .contactDiv .inputDiv {
+  width: 100%;
+  gap: 1rem;
+  flex-direction: column;
+}
+.footer .secContent .contactDiv .inputDiv input {
+  width: 100%;
+  padding: 0.5rem 0.6rem;
+  border-radius: 3rem;
+  border: 1px solid var(--whiteColor);
+  outline: none;
+  background: transparent;
+  color: var(--whiteColor);
+}
+.footer .secContent .contactDiv .inputDiv input::-moz-placeholder {
+  color: var(--whiteColor);
+  opacity: 0.5;
+}
+.footer .secContent .contactDiv .inputDiv input::placeholder {
+  color: var(--whiteColor);
+  opacity: 0.5;
+}
 /*# sourceMappingURL=footer.css.map */
