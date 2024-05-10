@@ -130,4 +130,19 @@
   color: var(--PrimaryColor);
   margin-right: 10px;
 }
+.footer .secContent .footerCard .footerParagraph {
+  font-size: 13px;
+  color: var(--textColor);
+}
+.footer .secContent .footerCard .foorterSocials {
+  -moz-column-gap: 0.5rem;
+       column-gap: 0.5rem;
+}
+.footer .secContent .footerCard .foorterSocials .icon {
+  color: var(--blackColor);
+  font-size: 20px;
+}
+.footer .secContent .footerCard .foorterSocials .icon:hover {
+  color: var(--PrimaryColor);
+}
 /*# sourceMappingURL=footer.css.map */

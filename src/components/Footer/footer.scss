@@ -141,6 +141,24 @@
                     }
                 }
             }
+
+            .footerParagraph{
+                font-size: 13px;
+                color: var(--textColor);
+            }
+
+            .foorterSocials{
+                column-gap: .5rem;
+
+                .icon{
+                    color: var(--blackColor);
+                    font-size: 20px;
+
+                    &:hover{
+                        color: var(--PrimaryColor);
+                    }
+                }
+            }
         }
     }
 }

@@ -43,7 +43,7 @@ const Footer = () => {
             Sign up to get marketing emails from Trippy, including promotions, rewards, travel experiences and information about Trippy’s and Trippy Transport Limited’s products and services.
             </div>
 
-            <div className="foorterSocials">
+            <div className="foorterSocials flex">
             <AiOutlineTwitter className='icon'/>
             <AiFillYoutube className='icon'/> 
             <AiFillInstagram className='icon'/>
