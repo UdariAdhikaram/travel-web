@@ -2,8 +2,12 @@ import React from 'react'
 import './footer.css'
 import video2 from '../../Assets/video (2).mp4'
 import { FiSend } from "react-icons/fi"
-import {MdOutlineTravelExplore} from 'react-icons/fi'
+import { MdOutlineTravelExplore } from 'react-icons/md'
 import { AiOutlineTwitter } from "react-icons/ai"
+import { AiFillYoutube } from "react-icons/ai"
+import { AiFillInstagram } from "react-icons/ai"
+import { FaTripadvisor } from "react-icons/fa"
+import { FiChevronRight } from "react-icons/fi"
 
 const Footer = () => {
   return (
@@ -39,11 +43,44 @@ const Footer = () => {
             Sign up to get marketing emails from Trippy, including promotions, rewards, travel experiences and information about Trippy’s and Trippy Transport Limited’s products and services.
             </div>
 
-            <div className="foorterSocial">
+            <div className="foorterSocials">
             <AiOutlineTwitter className='icon'/>
-            <AiOutlineTwitter className='icon'/> 
-            <AiOutlineTwitter className='icon'/>
+            <AiFillYoutube className='icon'/> 
+            <AiFillInstagram className='icon'/>
+            <FaTripadvisor className='icon'/>
+            </div>
+          </div>
 
+          <div className="footerLinks grid">
+            <div className="linkGroup">
+              <span className="groupTitle">
+                OUR AGENCY
+              </span>
+
+              <li className="footerList flex">
+              <FiChevronRight className='icon'/>
+              Services
+              </li>
+
+              <li className="footerList flex">
+              <FiChevronRight className='icon'/>
+              Insurance
+              </li>
+
+              <li className="footerList flex">
+              <FiChevronRight className='icon'/>
+              Agency
+              </li>
+
+              <li className="footerList flex">
+              <FiChevronRight className='icon'/>
+              Tourism
+              </li>
+
+              <li className="footerList flex">
+              <FiChevronRight className='icon'/>
+              Payment
+              </li>
             </div>
           </div>
         </div>
