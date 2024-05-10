@@ -92,4 +92,14 @@
   color: var(--whiteColor);
   opacity: 0.5;
 }
+.footer .secContent .contactDiv .inputDiv .btn {
+  width: 100%;
+  justify-content: center;
+  color: var(--whiteColor);
+  font-weight: 500;
+  gap: 0.5rem;
+}
+.footer .secContent .contactDiv .inputDiv .btn .icon {
+  font-size: 18px;
+}
 /*# sourceMappingURL=footer.css.map */

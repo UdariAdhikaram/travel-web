@@ -2,6 +2,8 @@ import React from 'react'
 import './footer.css'
 import video2 from '../../Assets/video (2).mp4'
 import { FiSend } from "react-icons/fi"
+import {MdOutlineTravelExplore} from 'react-icons/fi'
+import { AiOutlineTwitter } from "react-icons/ai"
 
 const Footer = () => {
   return (
@@ -22,6 +24,27 @@ const Footer = () => {
             <button className="btn flex" type='submit'>
                 SEND <FiSend className="icon"/>
             </button>
+          </div>
+        </div>
+
+        <div className="footerCard flex">
+          <div className="footerIntro flex">
+            <div className="logoDiv">
+              <a href="#" className="logo flex">
+              <MdOutlineTravelExplore className='icon'/> Trippy
+              </a>
+            </div>
+
+            <div className="footerParagraph">
+            Sign up to get marketing emails from Trippy, including promotions, rewards, travel experiences and information about Trippy’s and Trippy Transport Limited’s products and services.
+            </div>
+
+            <div className="foorterSocial">
+            <AiOutlineTwitter className='icon'/>
+            <AiOutlineTwitter className='icon'/> 
+            <AiOutlineTwitter className='icon'/>
+
+            </div>
           </div>
         </div>
       </div>

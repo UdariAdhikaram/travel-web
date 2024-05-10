@@ -94,6 +94,18 @@
                         opacity: .5;
                     }
                 }
+
+                .btn{
+                    width: 100%;
+                    justify-content: center;
+                    color: var(--whiteColor);
+                    font-weight: 500;
+                    gap: .5rem;
+
+                    .icon{
+                        font-size: 18px;
+                    }
+                }
             }
         }
     }
