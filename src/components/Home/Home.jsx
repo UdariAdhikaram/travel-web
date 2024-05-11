@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import './home.css'
 import video from '../../Assets/video2.mp4'
 import { GrLocation } from 'react-icons/gr'
@@ -9,7 +9,13 @@ import { SiTripadvisor } from 'react-icons/si'
 import { CiBoxList } from 'react-icons/ci'
 import { TbApps } from 'react-icons/tb'
 
+import Aos from 'aos'
+import 'aos/dist/aos.css'
+
 const Home = () => {
+
+
+  
   return (
     <section className='home'>
       <div className="overlay"></div>
