@@ -77,14 +77,14 @@
   display: block;
   color: var(--textColor);
   padding-bottom: 10px;
-  font-size: 15px;
-  font-weight: 550;
+  font-size: 16px;
+  font-weight: 500;
 }
-.home .homeContent .cardDiv .label_total {
+.home .homeContent .cardDiv .lable_total {
   justify-content: space-between;
   align-items: center;
 }
-.home .homeContent .cardDiv .label_total .total {
+.home .homeContent .cardDiv .lable_total .total {
   color: var(--textColor);
   font-size: 18px;
   padding-bottom: 10px;

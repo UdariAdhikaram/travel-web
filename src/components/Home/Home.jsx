@@ -56,7 +56,7 @@ useEffect(()=>{
             <div className="priceInput">
               <div className='lable_total flex'>
                 <label htmlFor='price'>Max price:</label>
-                <h3 className='total'>LKR 10,000</h3>
+                <h3 className="total">LKR10000</h3>
               </div>
                 <div className='input flex'>
                   <input type="range" max="100000"

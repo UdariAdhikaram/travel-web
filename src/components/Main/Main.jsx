@@ -1,6 +1,6 @@
 import React, {useEffect} from 'react'
 import './main.css' 
-import img1 from '../../Assets/img (1).jpeg'
+import img1 from '../../Assets/img (1).jpg'
 import img2 from '../../Assets/img (2).jpeg'
 import img3 from '../../Assets/img (3).jpg' 
 import img4 from '../../Assets/img (4).jpg'

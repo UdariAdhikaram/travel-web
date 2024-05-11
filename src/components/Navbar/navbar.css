@@ -113,7 +113,7 @@
   .header .navBar .navLists .navItem .navLink {
     color: var(--textColor);
     padding: 0 0.45rem;
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: 550;
   }
   .header .navBar .navLists .navItem .navLink:hover {
@@ -124,18 +124,18 @@
   }
   .header .navBar .navLists .btn a {
     color: var(--whiteColor);
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     font-weight: 550;
   }
 }
 @media screen and (min-width: 960px) {
   .header .navBar .navLists .navItem {
-    padding: 0 0.7rem;
+    padding: 0 0.5rem;
   }
 }
 @media screen and (min-width: 1240px) {
   .header {
-    padding: 1rem 8.5rem;
+    padding: 1rem;
   }
 }
 /*# sourceMappingURL=navbar.css.map */
