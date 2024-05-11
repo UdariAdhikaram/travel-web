@@ -52,6 +52,8 @@ const Footer = () => {
           </div>
 
           <div className="footerLinks grid">
+
+            {/* Group One */}
             <div className="linkGroup">
               <span className="groupTitle">
                 OUR AGENCY
@@ -82,6 +84,76 @@ const Footer = () => {
               Payment
               </li>
             </div>
+
+            {/* Group Two */}
+            <div className="linkGroup">
+              <span className="groupTitle">
+                PARTNERS
+              </span>
+
+              <li className="footerList flex">
+              <FiChevronRight className='icon'/>
+              Bookings
+              </li>
+
+              <li className="footerList flex">
+              <FiChevronRight className='icon'/>
+              RentCars
+              </li>
+
+              <li className="footerList flex">
+              <FiChevronRight className='icon'/>
+              HostelWorld
+              </li>
+
+              <li className="footerList flex">
+              <FiChevronRight className='icon'/>
+              Trivago
+              </li>
+
+              <li className="footerList flex">
+              <FiChevronRight className='icon'/>
+              TripAdvisor
+              </li>
+            </div>
+
+            {/* Group Three */}
+            <div className="linkGroup">
+              <span className="groupTitle">
+                LAST MIUTE
+              </span>
+
+              <li className="footerList flex">
+              <FiChevronRight className='icon'/>
+              Ella
+              </li>
+
+              <li className="footerList flex">
+              <FiChevronRight className='icon'/>
+              Nuwara Eliya
+              </li>
+
+              <li className="footerList flex">
+              <FiChevronRight className='icon'/>
+              Mirissa
+              </li>
+
+              <li className="footerList flex">
+              <FiChevronRight className='icon'/>
+              Kandy
+              </li>
+
+              <li className="footerList flex">
+              <FiChevronRight className='icon'/>
+              Tricomalee
+              </li>
+            </div>
+          </div>
+
+          <div className="footerDiv flex">
+            <small>BEST TRAVEL WEBSITE THEME</small>
+            <small>COPYRIGHTS RESERVED - UDARIADHIKARAM 
+              2024</small>
           </div>
         </div>
       </div>
