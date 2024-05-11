@@ -1,6 +1,6 @@
 import React from 'react'
 import './footer.css'
-import video2 from '../../Assets/video (2).mp4'
+import video1 from '../../Assets/video (2).mp4'
 import { FiSend } from "react-icons/fi"
 import { MdOutlineTravelExplore } from 'react-icons/md'
 import { AiOutlineTwitter } from "react-icons/ai"
@@ -13,7 +13,7 @@ const Footer = () => {
   return (
     <section className="footer">
       <div className="videoDiv">
-        <video src={video2} loop autoPlay muted type="video/mp4"></video>
+        <video src={video1} loop autoPlay muted type="video/mp4"></video>
       </div>
 
       <div className="secContent container">
