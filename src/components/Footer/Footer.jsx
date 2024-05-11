@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useEffect} from 'react'
 import './footer.css'
 import video1 from '../../Assets/video (2).mp4'
 import { FiSend } from "react-icons/fi"
@@ -9,7 +9,16 @@ import { AiFillInstagram } from "react-icons/ai"
 import { FaTripadvisor } from "react-icons/fa"
 import { FiChevronRight } from "react-icons/fi"
 
+import Aos from 'aos'
+import 'aos/dist/aos.css'
+
 const Footer = () => {
+
+  //create a react hook to add a scroll animation..
+  useEffect(()=>{
+    Aos.init({duration: 2000})
+    }, [])
+  
   return (
     <section className="footer">
       <div className="videoDiv">
@@ -18,13 +27,13 @@ const Footer = () => {
 
       <div className="secContent container">
         <div className="contactDiv flex">
-          <div className="text">
+          <div data-aos="fade-up" className="text">
             <small>KEEP IN Touch</small>
             <h2>Travel With Us</h2>
           </div>
 
           <div className="inputDiv flex">
-            <input type="text" placeholder='Enter Email Address'/>
+            <input data-aos="fade-up" type="text" placeholder='Enter Email Address'/>
             <button className="btn flex" type='submit'>
                 SEND <FiSend className="icon"/>
             </button>
@@ -39,11 +48,11 @@ const Footer = () => {
               </a>
             </div>
 
-            <div className="footerParagraph">
+            <div data-aos="fade-up" className="footerParagraph">
             Sign up to get marketing emails from Trippy, including promotions, rewards, travel experiences and information about Trippy’s and Trippy Transport Limited’s products and services.
             </div>
 
-            <div className="foorterSocials flex">
+            <div data-aos="fade-up" className="foorterSocials flex">
             <AiOutlineTwitter className='icon'/>
             <AiFillYoutube className='icon'/> 
             <AiFillInstagram className='icon'/>
@@ -54,7 +63,8 @@ const Footer = () => {
           <div className="footerLinks grid">
 
             {/* Group One */}
-            <div className="linkGroup">
+            <div data-aos="fade-up" 
+            data-aos-duration="3000" className="linkGroup">
               <span className="groupTitle">
                 OUR AGENCY
               </span>
@@ -86,7 +96,8 @@ const Footer = () => {
             </div>
 
             {/* Group Two */}
-            <div className="linkGroup">
+            <div data-aos="fade-up"
+            data-aos-duration="4000" className="linkGroup">
               <span className="groupTitle">
                 PARTNERS
               </span>
@@ -118,7 +129,8 @@ const Footer = () => {
             </div>
 
             {/* Group Three */}
-            <div className="linkGroup">
+            <div data-aos="fade-up" 
+            data-aos-duration="5000" className="linkGroup">
               <span className="groupTitle">
                 LAST MIUTE
               </span>
