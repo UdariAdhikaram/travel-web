@@ -10,6 +10,9 @@ import img7 from '../../Assets/img (7).jpg'
 import img8 from '../../Assets/img (8).webp'
 import img9 from '../../Assets/img (9).webp'
 import img10 from '../../Assets/img (10).jpeg'
+import img11 from '../../Assets/img (11).jpeg'
+import img12 from '../../Assets/img (12).JPG'
+
 
 import Aos from 'aos'
 import 'aos/dist/aos.css'
@@ -102,7 +105,7 @@ const Data = [
    {
     id:9,
     imgSrc: img9,
-    destTitle: 'Little Adam’s Peak',
+    destTitle: 'Mini Adam’s Peak',
     location: 'Ella',
     grade: 'CULTURE RELAX',
     fees: 'LKR35000',
@@ -116,7 +119,29 @@ const Data = [
     location: 'Trincomalee',
     grade: 'CULTURE RELAX',
     fees: 'LKR45000',
-    description: 'Marble Beach, also known as Saliara Beach, is a seaside gem located within a small isolated bay.Enjoy your visit to this stunning coastal paradise!'    },
+    description: 'Marble Beach, also known as Saliara Beach, is a seaside gem located within a small isolated bay.Enjoy your visit to this stunning coastal paradise!'    
+  },
+
+  {
+    id:11,
+    imgSrc: img11,
+    destTitle: 'Galle Fort',
+    location: 'Galle',
+    grade: 'CULTURE RELAX',
+    fees: 'LKR40000',
+    description: 'Galle Fort, located on the southwest coast of Sri Lanka, is a place of historical, archaeological, and architectural significance.Enjoy your visit to this enchanting historical landmark!'
+    },
+
+    {
+    id:12,
+    imgSrc: img12,
+    destTitle: 'Sri Maha Bodhi',
+    location: 'Anuradhapura',
+    grade: 'CULTURE RELAX',
+    fees: 'LKR27000',
+    description: 'The Sri Maha Bodhi is a sacred fig tree located in Anuradhapura, Sri Lanka. It holds immense significance for Buddhists as it is believed to be the oldest living human-planted tree in the world with a known planting date.Visiting Sri Maha Bodhi offers not only a spiritual experience but also a connection to the past and a testament to resilience.'
+      },
+
 
 ]
 
