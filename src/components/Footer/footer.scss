@@ -159,6 +159,44 @@
                     }
                 }
             }
+            
+            .footerLinks{
+                flex-basis: 50%;
+                width: 100%;
+                gap: 1rem;
+                grid-template-columns: repeat(2,1fr);
+                justify-content: space-between;
+
+                .linkGroup{
+                    .groupTitle{
+                        display: block;
+                        font-weight: 600;
+                        color: var(--blackColor);
+                        margin-bottom: .5rem;
+                    }      
+
+                    .footerList{
+                        font-size: 15px;
+                        color: var(--textColor);
+                        transition: .3s ease-in-out;
+
+                        .icon{
+                            font-size: 15px;
+                            color: var(--greyText);
+                        }
+
+                        &:hover{
+                            color: var(--PrimaryColor);
+                            transform: translateX(7px);
+
+                            .icon{
+                                color: var(--secondaryColor);
+                                
+                            }
+                        }
+                    }
+                }
+            }
         }
     }
 }
