@@ -32,8 +32,8 @@ const removeNavbar = () =>{
                 <ul className="navLists flex">
                     
                     <li className="navItem">
-                    <AiFillHome />
-                        <a href="#" className="navLink">Home</a>
+                    
+                        <a href="#" className="navLink" ><AiFillHome className='icon'/>Home</a>
                     </li>
 
                     <li className="navItem">
