@@ -3,7 +3,6 @@ import './navbar.css'
 import {MdOutlineTravelExplore} from 'react-icons/md'
 import {AiFillCloseCircle} from 'react-icons/ai'
 import {TbGridDots} from 'react-icons/tb'
-import { AiFillHome } from "react-icons/ai"
 
 
 export const Navbar = () => {
@@ -33,7 +32,7 @@ const removeNavbar = () =>{
                     
                     <li className="navItem">
                     
-                        <a href="#" className="navLink" ><AiFillHome className='icon'/>Home</a>
+                        <a href="#" className="navLink" >Home</a>
                     </li>
 
                     <li className="navItem">
