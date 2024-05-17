@@ -3,7 +3,6 @@ import './navbar.css'
 import {MdOutlineTravelExplore} from 'react-icons/md'
 import {AiFillCloseCircle} from 'react-icons/ai'
 import {TbGridDots} from 'react-icons/tb'
-import { Link } from 'react-router-dom';
 
 
 
@@ -38,7 +37,7 @@ const removeNavbar = () =>{
                     </li>
 
                     <li className="navItem">
-                        <a href="#" className="navLink">Packages</a>
+                        <a href="http://localhost:3000/Packages" className="navLink">Packages</a>
                     </li>
 
                     <li className="navItem">
@@ -77,14 +76,6 @@ const removeNavbar = () =>{
             <TbGridDots className="icon"/>
             </div>
         </header>
-
-        <nav>
-        <ul>
-          <li><Link to="/">Home</Link></li>
-          <li><Link to="/about">About</Link></li> {/* Add this line */}
-          {/* Add other navigation links here */}
-        </ul>
-      </nav>
 
     </section>
   )
